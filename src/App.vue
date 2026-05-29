@@ -1,5 +1,6 @@
 <script setup>
 import './style.css'
+import Day2 from './components/Day2.vue'
 import MySkills from './components/MySkills.vue'
 
 const today = new Date().toDateString()
@@ -13,6 +14,7 @@ const today = new Date().toDateString()
     <p>Coimbatore</p>
     <p>{{ today }}</p>
 
+    <Day2 />
     <MySkills />
 
   </div>

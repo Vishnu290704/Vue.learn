@@ -23,6 +23,43 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-.task-card h2 {
+.task-card h2,
+.task-card h3 {
   margin: 0;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #42b883;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.status-online {
+  color: green;
+  font-weight: bold;
+}
+
+.status-offline {
+  color: red;
+  font-weight: bold;
 }
