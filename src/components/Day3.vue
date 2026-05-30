@@ -7,6 +7,7 @@
     sum.value = Number(num1.value) + Number(num2.value);
   }
 </script>
+
 <template>
   <div>
     <h1>Enter the numbers:</h1>
@@ -23,3 +24,4 @@
     <p>Sum: {{ sum }}</p>
   </div>
 </template>
+
