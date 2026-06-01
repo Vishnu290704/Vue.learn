@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 const skills = [
   'Java',
   'Python',
@@ -12,4 +12,4 @@ const skills = [
       <h2>{{ skill }}</h2>
     </div>
   </div>
-</template>
+</template> -->

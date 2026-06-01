@@ -1,107 +1,128 @@
-# My First Vue Project
+# Vue.js Learning Journey 
 
-I created this project while learning Vue.js.
-
-In this project, I learned how to:
-
-* Create a Vue project using Vite
-* Work with App.vue
-* Create and use components
-* Add CSS styling
-* Display data on the page
-
-The page shows my name, role, location, current date, and some of my skills.
-
-Skills:
-
-* Java
-* Python
-* Vue.js
-
-This is my Day 1 practice project for learning Vue.js.
-===============================================================================================
-# Vue.js Day 2 - Template Syntax & Directives
-
-I created this project while learning Vue.js Day 2 concepts.
-
-In this project, I learned how to:
-
-* Use text interpolation with `{{ }}`
-* Render lists using `v-for`
-* Use unique keys with `:key`
-* Display content conditionally using `v-if` and `v-else`
-* Handle user events with `@click`
-* Use two-way data binding with `v-model`
-* Bind attributes dynamically using `v-bind`
-* Work with reactive data using `ref()`
-
-## Features
-
-The page shows:
-
-* My name
-* My role
-* My location
-* Online/Offline status
-* Skills list
-
-Users can:
-
-* Toggle Online/Offline status
-* Add new skills dynamically
-* View skills rendered as cards
-* See the Add Skill button disabled when the input is empty
-
-## Skills Used
-
-* Vue.js
-* Vite
-* JavaScript
-* HTML
-* CSS
-
-## Vue Directives Practiced
-
-* `{{ }}`
-* `v-for`
-* `:key`
-* `v-if`
-* `v-else`
-* `v-model`
-* `@click`
-* `v-bind`
-
-This is my Day 2 practice project for learning Vue.js Template Syntax and Directives.
-=========================================================================================================
-# Vue.js Day 3 - Reactivity System
-
-## Topics Covered
-- `ref()` for reactive primitive values
-- `reactive()` for reactive objects
-- Vue 3 reactivity basics
-- Difference between `ref` and `reactive`
-
-## Task Completed
-### Simple Calculator
-Built a calculator that:
-- Accepts two numbers
-- Calculates their sum
-- Displays the result
-
-## Concepts Used
-- Composition API
-- `ref()`
-- `v-model`
-- Event Handling (`@click`)
-- Reactive UI Updates
-
-## Learning Outcome
-- Learned how Vue updates the UI automatically when data changes.
-- Understood when to use `ref()` and `reactive()`.
-
-## Technologies
+##  Technologies Used
 - Vue.js 3
+- Vite
 - JavaScript
 - HTML
+- CSS
 
- Day 3 Completed
+---
+
+##  Day 1 - Vue Basics
+### Topics Learned
+- Vue project setup using Vite
+- App.vue structure
+- Components
+- CSS styling
+- Data rendering
+
+### Project
+Simple profile page displaying:
+- Name
+- Role
+- Location
+- Skills
+
+---
+
+##  Day 2 - Template Syntax & Directives
+### Topics Learned
+- Text Interpolation `{{ }}`
+- `v-for`
+- `:key`
+- `v-if` / `v-else`
+- `v-model`
+- `@click`
+- `v-bind`
+- `ref()`
+
+### Project Features
+- Online/Offline status toggle
+- Dynamic skill addition
+- Skills list rendering
+- Form input binding
+
+---
+
+##  Day 3 - Reactivity System
+### Topics Learned
+- `ref()`
+- `reactive()`
+- Composition API
+- Reactive state updates
+
+### Project
+Simple Calculator:
+- Two number inputs
+- Sum calculation
+- Dynamic result display
+
+---
+
+##  Day 4 - Computed & Watchers
+### Topics Learned
+- `computed()`
+- `watch()`
+- `watchEffect()`
+- Writable Computed
+- Deep & Immediate Watchers
+
+### Project
+Search Component:
+- Search filtering
+- Debounce functionality
+- Recent searches
+- Local Storage support
+
+---
+
+## Day 5 - Conditional & List Rendering
+### Topics Learned
+- `v-if`
+- `v-show`
+- `<template v-if>`
+- `v-for`
+- `:key`
+- `<Transition>`
+- `<TransitionGroup>`
+
+### Project
+Animated Task Board:
+- Add tasks
+- Delete tasks
+- Task filtering
+- Task completion tracking
+- List animations
+
+---
+
+## Skills Covered
+Components
+
+Directives
+
+Event Handling
+
+Two-Way Binding
+
+ Reactivity
+
+ Computed Properties
+
+ Watchers
+
+ Conditional Rendering
+
+ List Rendering
+
+ Animations
+
+##  Next Topics
+- Forms
+- Props
+- Emits
+- Lifecycle Hooks
+- Vue Router
+- Pinia
+- API Integra

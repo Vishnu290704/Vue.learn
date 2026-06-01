@@ -63,3 +63,27 @@ button:disabled {
   color: red;
   font-weight: bold;
 }
+
+.fade-enter-active,
+.fade-leave-active{
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to{
+  opacity: 0;
+}
+.product-enter-active,
+.product-leave-active {
+  transition: all 0.5s ease;
+}
+
+.product-enter-from,
+.product-leave-to {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.product-move {
+  transition: transform 0.5s ease;
+}
