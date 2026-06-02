@@ -1,0 +1,20 @@
+.day3-container {
+  margin-top: 50px;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.day3-input {
+  width: 300px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.day3-result {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #42b883;
+}

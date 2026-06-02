@@ -1,4 +1,5 @@
 <script setup>
+import '../Styles/Day5.css'
 import { ref, computed } from 'vue'
 
 const Filter = ref(false)
@@ -37,52 +38,69 @@ const availableproduct = computed(() => {
 </script>
 
 <template>
-  <div class="container">
-    <h2>IPhone 18</h2>
+  <div class="day5-container">
 
-    <button v-if="available">
-      Add to Cart
-    </button>
+    <div class="day5-product-card">
 
-    <p v-if="quantity > 10">
-      In Stock
-    </p>
+      <h2>Day 5</h2>
 
-    <p v-else-if="quantity >= 5">
-      Few Stocks Left
-    </p>
+      <h2>IPhone 18</h2>
 
-    <p v-else>
-      Out of Stock
-    </p>
+      <button v-if="available">
+        Add to Cart
+      </button>
 
-    <button @click="Filter = !Filter">
-      Filter
-    </button>
+      <p v-if="quantity > 10">
+        In Stock
+      </p>
 
-    <h3>Available Products</h3>
+      <p v-else-if="quantity >= 5">
+        Few Stocks Left
+      </p>
 
- <TransitionGroup
-      name="product"
-      tag="ul">
-      <li v-for="product in availableproduct"
-        :key="product.id">
-        {{ product.name }}
-      </li>
-</TransitionGroup>
+      <p v-else>
+        Out of Stock
+      </p>
 
-<Transition name="fade">
-<div v-if="Filter">
-<p
-    v-for="item in filter"
-    :key="item" >
-   {{ item }}
- </p>
-</div>
-</Transition>
-<template v-if="Premium">
-    <p>Free Delivery</p>
-    <p>Discount</p>
-</template>
-</div>
+      <button @click="Filter = !Filter">
+        Filter
+      </button>
+
+      <h3>Available Products</h3>
+
+      <TransitionGroup
+        name="product"
+        tag="ul"
+        class="day5-product-list"
+      >
+        <li
+          v-for="product in availableproduct"
+          :key="product.id"
+          class="day5-product-item"
+        >
+          {{ product.name }}
+        </li>
+      </TransitionGroup>
+
+      <Transition name="fade">
+        <div v-if="Filter">
+
+          <p
+            v-for="item in filter"
+            :key="item"
+          >
+            {{ item }}
+          </p>
+
+        </div>
+      </Transition>
+
+      <template v-if="Premium">
+        <p>Free Delivery</p>
+        <p>Discount</p>
+      </template>
+
+    </div>
+
+  </div>
 </template>

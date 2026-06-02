@@ -1,0 +1,30 @@
+.day5-container {
+  margin-top: 50px;
+}
+
+.day5-product-card {
+  width: 500px;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.day5-product-list {
+  margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.day5-product-item {
+  padding: 15px;
+  margin-bottom: 10px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  border-left: 4px solid #42b883;
+}
+
+.day5-product-item:hover {
+  transform: translateX(5px);
+  transition: 0.3s;
+}

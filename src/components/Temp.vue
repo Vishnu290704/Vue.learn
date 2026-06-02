@@ -1,5 +1,7 @@
 <script setup>
+import '../Styles/Temp.css'
 import { ref, computed, watch, reactive, watchEffect} from 'vue'
+
 const firstname = ref("vishnu");
 const lastname = ref("k");
 const mark = ref(92)
@@ -73,20 +75,28 @@ if (savedData) {
   mark.value = data.marks;
 }
 </script>
-
 <template>
-  <div>
-    <h2>Full Name : {{ fullname }}</h2>
+  <div class="day4-container">
 
-    <h2>Marks : {{ mark }}</h2>
+    <div class="day4-card">
 
-    <h2>Grade : {{ grade }}</h2>
+      <h2>Day 4</h2>
 
-    <h2>City : {{ student.city }}</h2>
+      <h2>Full Name : {{ fullname }}</h2>
 
+      <h2>Marks : {{ mark }}</h2>
 
-    <button @click="student.city = 'Hyderabad'">
-      Change City
-    </button>
+      <h2>Grade : {{ grade }}</h2>
+
+      <h2 class="day4-city">
+        City : {{ student.city }}
+      </h2>
+
+      <button @click="student.city = 'Hyderabad'">
+        Change City
+      </button>
+
+    </div>
+
   </div>
 </template>

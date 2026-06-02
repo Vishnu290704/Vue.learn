@@ -1,0 +1,32 @@
+.day2-container {
+  margin-top: 40px;
+}
+
+.day2-card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.day2-card {
+  width: 250px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.day2-input {
+  width: 250px;
+}
+
+.day2-status-online {
+  color: green;
+  font-weight: bold;
+}
+
+.day2-status-offline {
+  color: red;
+  font-weight: bold;
+}

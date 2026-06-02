@@ -1,23 +1,19 @@
 <script setup>
-import './style.css'
+import './Styles/all.css'
+
 import Day2 from './components/Day2.vue'
 import Day3 from './components/Day3.vue'
 import Day4 from './components/Temp.vue'
 import Day5 from './components/Day5.vue'
-// import MySkills from './components/MySkills.vue'
-const today = new Date().toDateString()
+import Day6 from './components/Day6.vue'
 </script>
 
 <template>
-  <div class="container">
-    <h1>Vishnu K</h1>
-    <h2>Full Stack Developer</h2>
-    <p>Coimbatore</p>
-    <p>{{ today }}</p>
+  <div class="app-container">
     <Day2 />
-    <Day3/>
-    <Day4/>
-    <Day5/>
-    <!-- <MySkills />  -->
+    <Day3 />
+    <Day4 />
+    <Day5 />
+    <Day6 />
   </div>
 </template>

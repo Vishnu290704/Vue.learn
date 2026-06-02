@@ -1,0 +1,20 @@
+.day4-container {
+  margin-top: 50px;
+}
+
+.day4-card {
+  width: 450px;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.day4-card h2 {
+  margin-bottom: 15px;
+}
+
+.day4-city {
+  color: #42b883;
+  font-weight: bold;
+}

@@ -1,0 +1,45 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Main App Container */
+.app-container {
+  padding: 20px;
+}
+
+/* Global Buttons */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #42b883;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Global Inputs */
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Common Day Heading */
+.day-title {
+  margin: 40px 0 20px;
+  font-size: 32px;
+  font-weight: bold;
+}

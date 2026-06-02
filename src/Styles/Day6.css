@@ -1,0 +1,32 @@
+.day6-container {
+  margin-top: 50px;
+}
+
+.day6-login-card {
+  width: 450px;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.day6-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.day6-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.day6-button {
+  width: 100%;
+}
+
+.day6-button:hover {
+  opacity: 0.9;
+}

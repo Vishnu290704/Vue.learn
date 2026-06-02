@@ -1,4 +1,5 @@
 <script setup>
+import '../Styles/Day2.css'
 import { ref } from 'vue'
 
 const name = ref('Vishnu K')
@@ -25,7 +26,10 @@ function addSkill() {
 </script>
 
 <template>
-  <div class="container">
+  <div class="day2-card">
+      <div class="day2-header">
+        <h2>Day 2</h2>
+    </div>
 
     <h1>{{ name }}</h1>
 
